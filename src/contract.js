@@ -1,4 +1,4 @@
-export const CONTRACT_ADDRESS = "0x4d179891E6e417D32f5065D035Ef90892dE0Be35";
+export const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS;
 
 export const CONTRACT_ABI = [
   {
